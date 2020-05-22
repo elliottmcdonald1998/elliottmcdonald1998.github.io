@@ -23,7 +23,9 @@ a
 }
 
 .header {
-	background-image: linear-gradient(to top right, cyan, blue);
+	z-index: 10;
+	position:absolute;
+	top:0;
 	width:100%;
 	height:10%;
   color: white;
@@ -141,7 +143,7 @@ a
 
 .carousel{
 	text-align: center;
-	height: 90%;
+	height: 100%;
 	flex:1;
 	background-size: 100% 100%;
 }
@@ -168,7 +170,9 @@ a
 }
 
 
-
+.cathedral{
+	padding-top:3%;
+}
 .cathedral video
 {
 	position: absolute;
@@ -183,7 +187,7 @@ a
 
 .rhcp-site
 {
-	display: inline;
+	padding-top: 3%;
 }
 
 .rhcp-site p
@@ -191,7 +195,15 @@ a
 	position: absolute;
 	left:62%;
 	width: 35%;
-	top:10%;
+	top:15%;
+}
+
+.food-tracker{
+	padding-top: 3%
+}
+
+.sname{
+	padding-top: 3%
 }
 
 .food-tracker video

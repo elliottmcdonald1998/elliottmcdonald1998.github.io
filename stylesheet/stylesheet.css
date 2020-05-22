@@ -81,22 +81,39 @@ a
 
 }
 
+.about{
+	height:100%;
+	background-size:100% 100%;
+	color:white;
+}
+
+.about p{
+	position:absolute;
+	top:10%;
+	left:40%;
+	font-size:150%;
+	padding-right:5%;
+}
+
+
 .contact{
-	height:90%;
+	height:100%;
 	background-size:100% 100%;
 	color:white;
 }
 
 .contact p{
 	position:absolute;
+	top:10%;
 	left:55%;
 	font-size:250%;
 }
 
+
 .contact ol
 {
 	position: relative;
-	top:15%;
+	top:25%;
 	left:45%;
 	width:50%;
 }
@@ -107,7 +124,7 @@ a
   grid-template-columns: 40% 40% 40%;
 	width:40%;
 	left:38%;
-	top:15%
+	top:25%
 }
 
 .grid-container-2 {
@@ -115,7 +132,7 @@ a
   display: grid;
   grid-template-columns: 40% 40% 40%;
 	width:40%;
-  top:17%;
+  top:25%;
 	left:38%;
 }
 .grid-item {
@@ -167,11 +184,15 @@ a
 	text-align: left;
 	position:absolute;
 	left:35%;
+	font-size: 120%;
 }
 
 
 .cathedral{
 	padding-top:3%;
+}
+.cathedral p{
+	padding-left: 3%;
 }
 .cathedral video
 {

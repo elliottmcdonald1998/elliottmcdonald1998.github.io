@@ -86,7 +86,7 @@ function prevFunction() {
   if(scroll >= 0)
   {
     console.log(pctScrolled % ((scroll * 25)-1))
-    if(pctScrolled % ((scroll * 25)-1) != 0 % pctScrolled % ((scroll * 25) != 0)
+    if(pctScrolled % ((scroll * 25)-1) != 0 || pctScrolled % ((scroll * 25) != 0))
     {
       console.log("poo")
       document.body.scrollTop = document.body.clientHeight * scroll;

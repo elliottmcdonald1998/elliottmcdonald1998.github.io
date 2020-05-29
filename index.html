@@ -17,16 +17,27 @@
 
 		</div>
 
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active" style = "background-image: url('Assets/Cathedral.jpg') ">
-			<div class = "cathedral">
+
+		<input type="image" src="Assets/up.png" onclick="prevFunction()"  id="upBtn"/>
+
+		<div class="header">
+			  <h1>Elliott McDonald Portfolio</h1>
+				<ol>
+					<li><a href = "index.html"> Projects</a></li>
+					<li><a href = "aboutme.html">About Me</a></li>
+					<li><a href = "contactinfo.html">Contact Info</a></li>
+				</ol>
+
+			</div>
+
+			<div class = "about" style = "background-image: url('Assets/me.jpg') ">
+				<p> An enthusiastic, self-motivated final year student at the University of Lincoln studying Computer Science (BSc) with strong experience in C#, C++, HTML, CSS, JavaScript and the development of applications for desktop, mobile devices and web. Self-taught Python and Unity for the purposes of producing a final year thesis and completed a three month internship at Experian as a data management intern producing an Alteryx tool using Python. This would be an excellent opportunity to apply and improve on skills acquired throughout University in a positive working environment.  </p>
+
+
+
+			</div>
+
+		<div class = "cathedral" style = "background-image: url('Assets/Cathedral.jpg') ">
 				<h1>Lincoln Cathedral AR</h1>
 				<video height="80%"  controls>
 				<source src="Assets/AR.mp4" type="video/mp4">
@@ -38,9 +49,7 @@
 
 
 
-    </div>
-		<div class="carousel-item" style = "background-image: url('Assets/banana.jpg') ">
-			<div class = "food-tracker">
+		<div class = "food-tracker"  style = "background-image: url('Assets/banana.jpg') ">
 				<h1>My Food Tracker</h1>
 				<video height="80%" controls>
 				<source src="Assets/food tracker.mp4" type="video/mp4">
@@ -51,10 +60,8 @@
 		send reminders that will let them know when their items expire.</p>
 
     </div>
-	</div>
 
-		<div class="carousel-item" style = "background-image: url('Assets/conc3.jpg') ">
-			<div class = "rhcp-site">
+			<div class = "rhcp-site" style = "background-image: url('Assets/conc3.jpg') ">
 				<h1>Red Hot Chili Peppers Website</h1>
 				<video height="64%" width="48%" controls>
 				<source src="Assets/RHCP website.mp4" type="video/mp4">
@@ -67,30 +74,23 @@
 
 
 
-    </div>
 
-		<div class="carousel-item" style = "background-image: url('Assets/sname2.png') ">
-			<div class = "sname">
+
+			<div class = "sname" style = "background-image: url('Assets/sname2.png') ">
 				<h1>Sname</h1>
 			</div>
 
+			<input type="image" src="Assets/down.png" onclick="nextFunction()"  id="downBtn"/>
 
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+
+
 
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="Java/scroll.js"></script>
 </body>
 
 

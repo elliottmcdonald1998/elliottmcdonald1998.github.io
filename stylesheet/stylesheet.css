@@ -11,6 +11,7 @@ html, body {
 	height:100%;
 	width:100%;
 	font-size: 100%;
+	min-height: 350px;
 	scroll-behavior: smooth;
 
 }
@@ -156,32 +157,6 @@ a
 	padding-top:5%;
 }
 
-.text-box-1{
-	background-color: #afeeee;
-	color:white;
-	padding-top:15%;
-	display: flex;
-	height: 100%;
-	width:50%;
-	text-align: center;
-}
-
-.text-box-1 h1{
-	position:absolute;
-	height:10%;
-	width:50%;
-	text-align: center;
-	align-content: center;
-
-
-}
-
-.text-box-1 p{
-	position:absolute;
-	margin-top: 5%;
-	text-align: center;
-}
-
 .image-box-2{
 	color:white;
 	padding-top:5%;
@@ -191,8 +166,6 @@ a
 	float:right;
 	text-align: center;
 
-
-
 }
 
 .image-box-2 video{
@@ -200,6 +173,37 @@ a
 	padding-top:5%;
 
 }
+
+.text-box-1{
+	background-color: #afeeee;
+	float:right;
+	position:relative;
+	color:white;
+	height: 100%;
+	width:50%;
+	text-align: center;
+	object-fit: contain;
+	display: flex;
+}
+
+.text-box-1 h1{
+	position:relative;
+	top:20%;
+	height:10%;
+	width:100%;
+	text-align: center;
+	align-content: center;
+
+
+}
+
+.text-box-1 p{
+	position:absolute;
+	text-align: center;
+	top:30%;
+}
+
+
 
 .text-box-2{
 	background-color: #afe4ee;
@@ -215,8 +219,8 @@ a
 }
 
 .text-box-2 h1{
-	padding-top: 20%;
 	position:absolute;
+	top:20%;
 	height:10%;
 	width:100%;
 	text-align: center;
@@ -227,7 +231,7 @@ a
 
 .text-box-2 p{
 	position:absolute;
-	padding-top: 30%;
+	top:30%;
 	text-align: center;
 }
 
@@ -281,6 +285,7 @@ a
 		object-fit: contain;
 		text-align: center;
 	}
+
 	.mobile-text
 	{
 		background-color: #afeeee;
@@ -288,6 +293,12 @@ a
 		padding-top:15%;
 		display: flex;
 		height: 100%;
+		width:100%;
+		text-align: center;
+	}
+
+	.mobile-text h1
+	{
 		width:100%;
 		text-align: center;
 	}
@@ -316,6 +327,18 @@ a
 	.text-box-2 h1{
 		font-size: 220%;
 	}
+
+	.text-box-1 p{
+		font-size: 130%;
+	}
+
+	.text-box-2 p{
+		font-size: 130%;
+	}
+
+	.about p{
+		font-size:130%;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -327,5 +350,17 @@ a
 
 	.text-box-2 h1{
 		font-size: 250%;
+	}
+
+	.text-box-1 p{
+		font-size: 150%;
+	}
+
+	.text-box-2 p{
+		font-size: 150%;
+	}
+
+	.about p{
+		font-size:150%;
 	}
 }

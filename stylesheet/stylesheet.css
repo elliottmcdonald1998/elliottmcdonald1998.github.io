@@ -373,6 +373,10 @@ a
 		width:100%;
 		text-align: center;
 	}
+
+	.mobile-text p{
+		top:20%;
+	}
 	.header h1
 	{
 		font-size: 170%;

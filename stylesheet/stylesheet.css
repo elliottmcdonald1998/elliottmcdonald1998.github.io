@@ -5,7 +5,7 @@ head{
 
 html, body {
 
-	background:white;
+	background:#afeeee;
 	font-family: helvetica;		/*base style for the page*/
 	margin:auto;
 	height:100%;
@@ -320,7 +320,22 @@ a
 	display:none;
 }
 
+embed{
+	width:60%;
+	height:100%;
+	position: relative;
+	text-align: center;
 
+}
+
+.CV
+{
+	background-color: #afeeee;
+	position:relative;
+	top:15%;
+	height:100%;
+	text-align: center;
+}
 
 
 

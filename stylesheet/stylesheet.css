@@ -333,6 +333,14 @@ a
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px)
 {
+	#downBtn{
+		display: none !important;
+	}
+
+	#upBtn{
+		display: none !important;
+	}
+
 	.mobile-image
 	{
 		color:white;
@@ -377,6 +385,8 @@ a
 		left:5px;
 		z-index: 20;
 	}
+
+
 
 
 }

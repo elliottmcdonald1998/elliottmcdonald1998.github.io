@@ -375,6 +375,7 @@ a
 	}
 
 	.mobile-text p{
+		position:relative;
 		top:20%;
 	}
 	.header h1

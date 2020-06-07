@@ -384,6 +384,7 @@ a
 
 	.mobile-text h1
 	{
+		position:absolute;
 		top:5%;
 		width:100%;
 		text-align: center;

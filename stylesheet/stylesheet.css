@@ -349,6 +349,13 @@ a
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px)
 {
+	.grid-item {
+
+	  padding: 1%;
+	  font-size: 90%;
+	  text-align: center;
+	}
+
 	#downBtn{
 		display: none !important;
 	}
@@ -422,6 +429,13 @@ a
 		font-size: 200%;
 	}
 
+	.grid-item {
+
+	  padding: 1%;
+	  font-size: 110%;
+	  text-align: center;
+	}
+
 
 }
 
@@ -447,6 +461,13 @@ a
 	.about p{
 		font-size:130%;
 	}
+	.grid-item {
+
+	  padding: 1%;
+	  font-size: 130%;
+	  text-align: center;
+	}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -470,5 +491,12 @@ a
 
 	.about p{
 		font-size:150%;
+	}
+
+	.grid-item {
+
+	  padding: 1%;
+	  font-size: 150%;
+	  text-align: center;
 	}
 }

@@ -356,6 +356,9 @@ a
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px)
 {
+	.contact p {
+		left:35%;
+	}
 	.grid-container {
 		position:relative;
 	  display: grid;

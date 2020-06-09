@@ -129,6 +129,13 @@ a
   text-align: center;
 }
 
+.grid-item-2 {
+
+  padding: 1%;
+  font-size: 150%;
+  text-align: center;
+}
+
 .contact li
 	{
 	text-align:center;
@@ -352,19 +359,22 @@ a
 	.grid-container {
 		position:relative;
 	  display: grid;
-	  grid-template-columns: 40% 40% 40%;
+	  grid-template-columns: 40%;
 		width:40%;
 		left:38%;
-		top:25%
+		top:25%;
+		overflow: hidden;
+		max-width:40%;
 	}
 
 	.grid-container-2 {
-		position:relative;
+		float:right;
+		position:absolute;
+		grid-template-columns: 40%;
 	  display: grid;
-	  grid-template-columns: 40% 40% 40%;
 		width:40%;
 	  top:25%;
-		left:38%;
+		left:60%;
 	}
 
 	.grid-item {
@@ -372,6 +382,13 @@ a
 	  padding: 1%;
 	  font-size: 90%;
 	  text-align: center;
+	}
+
+	.grid-item-2 {
+
+		padding: 32%;
+		font-size: 90%;
+		text-align: center;
 	}
 
 	#downBtn{

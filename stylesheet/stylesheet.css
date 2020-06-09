@@ -349,6 +349,24 @@ a
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px)
 {
+	.grid-container {
+		position:relative;
+	  display: grid;
+	  grid-template-columns: 40% 40% 40%;
+		width:40%;
+		left:38%;
+		top:25%
+	}
+
+	.grid-container-2 {
+		position:relative;
+	  display: grid;
+	  grid-template-columns: 40% 40% 40%;
+		width:40%;
+	  top:25%;
+		left:38%;
+	}
+
 	.grid-item {
 
 	  padding: 1%;

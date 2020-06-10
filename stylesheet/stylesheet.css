@@ -366,7 +366,7 @@ a
 	  display: grid;
 	  grid-template-columns: 40%;
 		width:40%;
-		left:38%;
+		left:34%;
 		top:25%;
 		overflow: hidden;
 		max-width:40%;
@@ -380,7 +380,7 @@ a
 		flex-direction: column;
 		width:40%;
 	  top:25%;
-		left:52%;
+		left:48%;
 	}
 
 	.grid-item {

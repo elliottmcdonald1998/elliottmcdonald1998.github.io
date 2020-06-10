@@ -357,12 +357,7 @@ a
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px)
 {
-	html, body {
 
-		min-width: 431px;
-		max-height: 100%;
-
-	}
 	.contact p {
 		left:35%;
 	}
